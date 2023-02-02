@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 import xlsxwriter
 
-input_file_updated = open('/Users/ericcatalan/Documents/Input File.csv')
-input_file_original = open('/Users/ericcatalan/Documents/Input File Empty.csv')
+input_file_updated = open('/Documents/Input File.csv')
+input_file_original = open('/Documents/Input File Empty.csv')
 updated_input_csv = csv.reader(input_file_updated)
 original_input_csv = csv.reader(input_file_original)
 header = []
